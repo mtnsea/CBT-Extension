@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'HarmonyOS-Sans';
+  src: url('../../assets/font/HarmonyOS_Sans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  font-family: 'HarmonyOS-Sans', 'Helvetica', 'Arial', "Microsoft Yahei", 'sans-serif';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+}
+
+:root {
+  --height: 56px;
+  --radius: .55rem;
+  --border: 1px solid rgba(255, 255, 255, 0.2);
+
+  --input-box-width: 720px;
+  --input-box-height: var(--height);
+  --search-radius: var(--radius);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'HarmonyOS-Sans', 'Helvetica', 'Arial', "Microsoft Yahei", 'sans-serif';
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: inherit
+}
+
+button {
+  all: unset;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.6;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+}
