@@ -1,7 +1,18 @@
-# WXT + Vue 3
+# 自定义背景扩展
 
-This template should help get you started developing with Vue 3 in WXT.
+该项目是一个浏览器扩展，允许用户设置自定义背景。
 
-## Recommended IDE Setup
+## 使用技术
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
+- WXT
+- Vue 3
+
+## 项目结构
+
+src/                   # 源代码
+├── assets/            # 资源文件
+├── components/        # Vue 组件
+├── entrypoints/       # 
+├── utils/             # 工具函数
+└──public/             # 静态资源
+
